@@ -1,0 +1,21 @@
+<resources>
+    <!-- general -->
+    <string name="app_name">WeatherApp</string>
+    <string name="mangrove">mangrove</string>
+    <string name="version">v1.0.0</string>
+    <string name="info_text">Este exercício foi desenvolvido e projetado pela Mangrove de Roterdão com o objetivo de testar as habilidades de desenvolvimento em Android.\n\n\n\nEsta aplicação não pode ser publicada ou lançada de forma alguma sem o conhecimento e a aprovação da Mangrove.\n\n\n\nSe tiver alguma dúvida, entre em contato diretamente conosco e durante este exercício não se esqueça de se divertir enquanto programa!</string>
+    <string name="dialog_title">Localização</string>
+    <string name="dialog_message">Introduza a cidade para a qual deseja receber as previsões meteorológicas (sensível a maiúsculas e minúsculas)</string>
+    <string name="city">Cidade</string>
+    <string name="temperature_units">Unidades de temperatura</string>
+    <string name="location">Localização</string>
+    <string name="forecast_days">Dias de previsão</string>
+    <string name="today">Hoje</string>
+    <string name="tomorrow">Amanhã</string>
+    <string name="information_screen">Informação</string>
+    <string name="settings_screen">Definições</string>
+    <!-- buttons -->
+    <string name="btn_search">Pesquisar</string>
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Cancelar</string>
+</resources>

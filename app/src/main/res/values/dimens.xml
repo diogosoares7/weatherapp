@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Text dimens-->
+    <dimen name="textsize_small">14sp</dimen>
+    <dimen name="textsize_normal">18sp</dimen>
+    <dimen name="textsize_large">32sp</dimen>
+    <dimen name="textsize_extra_large">40sp</dimen>
+
+    <!--Margins dimens-->
+    <dimen name="small_padding">5dp</dimen>
+    <dimen name="generic_padding">10dp</dimen>
+    <dimen name="generic_padding_large">20dp</dimen>
+    <dimen name="top_bottom_padding">5dp</dimen>
+
+</resources>

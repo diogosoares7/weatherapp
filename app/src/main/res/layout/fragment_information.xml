@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mangrove.soares.diogo.weatherapp.ui.MainActivity">
+
+    <include layout="@layout/header" />
+
+    <ScrollView
+        android:id="@+id/svInfo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:padding="@dimen/generic_padding_large">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/generic_padding_large"
+                android:layout_marginTop="@dimen/generic_padding_large"
+                android:text="@string/mangrove"
+                android:textColor="@color/blue_light"
+                android:textSize="@dimen/textsize_extra_large"
+                android:textStyle="bold" />
+
+            <mangrove.soares.diogo.weatherapp.util.TextviewBoldStyle
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/generic_padding_large"
+                android:layout_marginTop="@dimen/generic_padding_large"
+                android:text="@string/info_text" />
+
+            <include
+                android:id="@+id/footerLayout1"
+                layout="@layout/footer"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        android:id="@+id/footerLayout2"
+        layout="@layout/footer"
+        android:visibility="gone" />
+
+</LinearLayout>
