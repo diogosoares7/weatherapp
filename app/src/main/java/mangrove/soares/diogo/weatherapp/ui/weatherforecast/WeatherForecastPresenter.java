@@ -28,8 +28,8 @@ public class WeatherForecastPresenter extends BasePresenter<WeatherForecastContr
     private int day;
     private int lastDay = 0;
     private boolean firstCheck = true;
-    private static int lastTemperatureUnits;
-    private static int lastCityLocationId;
+    private int lastTemperatureUnits = 0;
+    private int lastCityLocationId = 0;
 
     public WeatherForecastPresenter(WeatherForecastContract.View view) {
         this.view = view;
